@@ -1,0 +1,74 @@
+.intro p {
+	width: 100%;
+	font-size: 40px;
+	line-height: 60px;
+	font-style: italic;	
+	margin-top: 20px;
+}
+
+.footer {
+	font-size: 30px !important;
+	font-style: normal !important;
+	line-height: 30px !important;
+}
+
+
+.logo {
+
+}
+
+.h1-white {color:#fff !important;}
+.p-white {color:#fff !important; opacity: 0.8;}
+.text-black {color:#000 !important;}
+.h1-home {margin:0px 0 370px 0}
+
+.googleplay-home {
+	margin: 50% 0 0 0;
+	width: 70%;
+}
+
+#section0{
+	background-image: url(imgs-movmnt/home-bg.jpg);
+	padding: 0;
+	background-size: cover;
+	background-position: 0 -40px;
+	background-repeat: no-repeat;
+}
+
+#section1{
+	background-image: url(imgs-movmnt/cards.jpg);
+	padding: 0;
+	background-size: cover;
+	background-position: 0 -40px;
+	background-repeat: no-repeat;
+}
+
+#section2{
+	background-image: url(imgs-movmnt/mobile-factory.png);
+	padding: 0;
+	background-size: cover;
+	background-position: 0 130px;
+	background-repeat: no-repeat;
+}
+
+
+#section3{
+	background-image: url(imgs-movmnt/shop-comunity.png);
+	padding: 0;
+	background-size: cover;
+	background-position: 0 -50px;
+	background-repeat: no-repeat;
+}
+
+#section4{
+	background-image: url(imgs-movmnt/people.jpg);
+	padding: 0;
+	background-size: cover;
+	background-position: 0 -100px;
+	background-repeat: no-repeat;
+}
+
+#section4 img {
+	width: 60%;
+	margin-top: 20px;
+}

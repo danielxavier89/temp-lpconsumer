@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>MOVMNT - The hottest fashion outlet in the world!</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 4em;
+		font-family: helvetica;
+		margin:-75% 0 0 0;
+	}
+
+	.intro p{
+		color: #959595;
+	}
+
+	.footer {
+		position: absolute;
+		bottom: 20px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6'],
+				sectionsColor: ['#0cb570', '#fff', '#0cb570', '#e7e7e7', '#fff', '#e7e7e7'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home', 'Second page', 'Third and last page', 'Third and last page', 'Third and last page']
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<img class="logo" src="imgs-movmnt/logo.png" alt="fullPage" />
+			<h1 class="h1-home h1-white">The hottest fashion<br/>outlet in the world!</h1>
+			<a href="#"><img class="googleplay-home" src="imgs-movmnt/googel-play-badge.png" alt="fullPage" /></a>
+		</div>
+	</div>
+	<div class="section" id="section1">
+			<div class="intro">
+				<h1>Pay for the style, not the name!</h1>
+				<p>Awesome quality clothes, straight from the source<br/> - exclusive stuff you won’t find anywhere else!</p>
+			</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1 class="h1-white">Checked & Verified!</h1>
+			<p class="p-white">We only allow sellers who meet our high<br/>standards for quality and responsibility.</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>Shop with the comunity!</h1>
+			<p>Get the best tips for your wardrobe with selfies <br/>and reviews from the MOVMNT community<br/>– you'll never shop alone!</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			<h1 class="text-black">Download now and<br/>start shopping!</h1>
+			<a href="#"><img src="imgs-movmnt/googel-play-badge.png" alt="fullPage" /></a>
+			<p class="footer">2015 MOVMNT<br/>Terms of Use - Privacy Policy - Imprint</p>
+		</div>
+	</div>
+	<div class="section" id="section5">
+		<div class="intro">
+			<h1>Enjoy it</h1>
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+</html>
