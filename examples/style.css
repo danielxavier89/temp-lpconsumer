@@ -12,9 +12,12 @@
 	line-height: 30px !important;
 }
 
+.footer a, a:visited {
+	color: #959595;
+}
 
-.logo {
-
+.footer a:active {
+	color: #0cb570;
 }
 
 .h1-white {color:#fff !important;}
