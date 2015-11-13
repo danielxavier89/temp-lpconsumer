@@ -30,6 +30,12 @@
 	width: 70%;
 }
 
+.mobile-home {
+	position: absolute;
+	margin: -370px 0 0 -240px;
+	width: 50%;
+}
+
 #section0{
 	background-image: url(imgs-movmnt/home-bg.jpg);
 	padding: 0;
@@ -67,7 +73,7 @@
 	background-image: url(imgs-movmnt/people.jpg);
 	padding: 0;
 	background-size: cover;
-	background-position: 0 -280px;
+	background-position: 0 -50px;
 	background-repeat: no-repeat;
 }
 
