@@ -10,6 +10,8 @@
 	font-size: 30px !important;
 	font-style: normal !important;
 	line-height: 30px !important;
+	background-color: #fff;
+	padding: 20px 0;
 }
 
 .footer a, a:visited {
