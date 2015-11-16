@@ -51,8 +51,8 @@ h1 {
 
 .mobile-home {
 	position: absolute;
-	margin: -200px 0 0 -110px;
-	width: 60%;
+    margin: -275px 0 0 -160px;
+    width: 45%;
 }
 
 #section0{
@@ -176,6 +176,16 @@ h1 {
 	    line-height: 28px !important;
 	    padding: 20px 0;
 	    bottom: 0;
+	}
+	.coupon {
+		margin-top: 345px;
+	}
+	.coupon img {
+		width: 80%;
+		padding: 45% 0 10% 0;
+	}
+	#section5 p {
+	    padding: 0 0 29% 0;
 	}
 }
 
