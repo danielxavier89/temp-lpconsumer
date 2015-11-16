@@ -9,33 +9,15 @@
 	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
 	<meta name="Resource-type" content="Document" />
 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link rel="stylesheet" href="fonts-lato/lato.css" type="text/css" charset="utf-8" />
+
 	<style>
 
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 4em;
-		font-family: helvetica;
-		margin:-65% 0 0 0;
-	}
-
-	.intro p{
-		color: #959595;
-	}
-
-	.footer {
-		position: absolute;
-		bottom: 20px;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
 	.section{
 		text-align:center;
 	}
@@ -48,7 +30,6 @@
 	.controlArrow.next{
 		right: 50px;
 	}
-
 
 	/* Bottom menu
 	* --------------------------------------- */
@@ -76,7 +57,7 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6'],
-				sectionsColor: ['#0cb570', '#fff', '#0cb570', '#e7e7e7', '#fff', '#e7e7e7'],
+				sectionsColor: ['#0cb570', '#fff', '#0cb570', '#e7e7e7', '#fff', 'transparent'],
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: ['Home', 'Second page', 'Third and last page', 'Third and last page', 'Third and last page']
@@ -123,7 +104,11 @@
 	</div>
 	<div class="section" id="section5">
 		<div class="intro">
-			<h1>Enjoy it</h1>
+			<div class="coupon">
+				<h1 class="h1-white">Download now!</h1>
+				<p class="p-white">You just got a free coupon! Download the app now to claim your free surprise coupon!</p>
+				<a href="#"><img src="imgs-movmnt/googel-play-badge.png" alt="fullPage" /></a>
+			</div>
 		</div>
 	</div>
 
